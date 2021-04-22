@@ -2,11 +2,10 @@
 body {
     background-color: #ffffff;
     font-family: "Segoe UI", sans-serif;
-
+    margin: 0 -30px 0 10px;
     display: flex;
     flex-direction: column;
 }
-
 
 header {
     background-color: #ffffff;
@@ -254,7 +253,7 @@ p {
 .prices-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .price-item {
@@ -400,6 +399,7 @@ footer {
 
 @media screen and (min-width: 576px) {
     /*styling toegepast op GROTER dan mobiel*/
+
     main {
         height: 880px;
         width: 100%;
@@ -454,7 +454,7 @@ footer {
     .article-one img {
         width: 50%;
         height: auto;
-        object-fit: cover;
+        object-fit: scale-down;
         visibility: visible;
         margin-top: 20px;
     }
