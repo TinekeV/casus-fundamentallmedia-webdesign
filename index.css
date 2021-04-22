@@ -2,7 +2,7 @@
 body {
     background-color: #ffffff;
     font-family: "Segoe UI", sans-serif;
-    margin: 0 -30px 0 10px;
+    margin: 0 -30px 0 0px;
     display: flex;
     flex-direction: column;
 }
@@ -32,7 +32,7 @@ ul {
 }
 
 li, a {
-    font-size: 20px;
+    font-size: 18px;
     color: #808080;
     text-decoration: none;
 }
@@ -60,13 +60,13 @@ main {
 
 .button-container {
     margin-top: 50px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 h1  {
     font-family: "Lucida Bright", sans-serif;
     color: #ffffff;
-    font-size: 80px;
+    font-size: 50px;
     margin-top: -20px;
 }
 
@@ -76,16 +76,18 @@ h2 {
     color: white;
     font-weight: 80;
     margin-top: -20px;
+    font-size: 20px;
 }
 
 .button-main {
-    width: 220px;
-    height: 70px;
+    width: 200px;
+    height: 50px;
     margin-left: 10px;
     background: transparent;
     border: #ffffff 3px solid;
     border-radius: 10px;
     align-self: center;
+    flex-wrap: wrap;
 
     font-family: "Lucida Bright", sans-serif;
     font-size: 25px;
@@ -99,7 +101,7 @@ h2 {
 }
 
 .section-one {
-    margin: 50px 0px 50px 20px;
+    margin: 50px 0px 50px 0px;
     display: flex;
     justify-content: center;
 }
@@ -113,7 +115,7 @@ h2 {
 }
 
 .section-one-text {
-    margin-top: 25px;
+    margin-top: 50px;
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -124,6 +126,7 @@ h2 {
 
 .section-one-text p {
     color: #b3b8bc;
+    font-size: 15px;
 }
 
 .section-one-text h4 {
@@ -180,7 +183,6 @@ p {
 }
 
 .article-one {
-    margin-left: 20px;
     display: flex;
 }
 
@@ -224,7 +226,6 @@ p {
 
 .article-two {
     background-color: #333333;
-    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -243,7 +244,6 @@ p {
 }
 
 .section-two {
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,7 +253,7 @@ p {
 .prices-container {
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .price-item {
@@ -333,7 +333,11 @@ p {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0px 0px 30px 20px;
+    margin: 0px 25px 30px 25px;
+}
+
+.contact-form-container h4 {
+    font-size: 22px;
 }
 
 .form-field {
@@ -366,7 +370,7 @@ input:focus {
 }
 
 footer {
-    height: 80px;
+    height: auto;
     background-color: #333333;
     color: #ffffff;
     display: flex;
@@ -399,11 +403,32 @@ footer {
 
 @media screen and (min-width: 576px) {
     /*styling toegepast op GROTER dan mobiel*/
+    body {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 
     main {
         height: 880px;
         width: 100%;
         object-fit: cover;
+    }
+
+    .button-container {
+        flex-wrap: nowrap;
+    }
+
+    .button-main {
+        width: 220px;
+        height: 70px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    h2 {
+        font-size: 25px;
     }
 
     header {
