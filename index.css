@@ -1,0 +1,486 @@
+/*styling toegepast op mobiel en groter*/
+body {
+    background-color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    background-color: #ffffff;
+    height: auto;
+    padding-right: 60px;
+}
+
+#circle {
+    background: #ffffff;
+    margin-top: -10px;
+    border-bottom: 1px solid #666666;
+
+    font-size: 50px;
+    font-family: "Lucida Bright", sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+li, a {
+    font-size: 20px;
+    color: #808080;
+    text-decoration: none;
+}
+
+li:hover {
+    color: #f8a322;
+}
+
+a:hover {
+    color: #f8a322;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    background-image: url("images/construction_cropped_.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-container {
+    margin-top: 50px;
+    flex-wrap: nowrap;
+}
+
+h1  {
+    font-family: "Lucida Bright", sans-serif;
+    color: #ffffff;
+    font-size: 80px;
+    margin-top: -20px;
+}
+
+h2 {
+    font-family: "Lucida Bright", sans-serif;
+    font-style: italic;
+    color: white;
+    font-weight: 80;
+    margin-top: -20px;
+}
+
+.button-main {
+    width: 220px;
+    height: 70px;
+    margin-left: 10px;
+    background: transparent;
+    border: #ffffff 3px solid;
+    border-radius: 10px;
+    align-self: center;
+
+    font-family: "Lucida Bright", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-main:hover {
+    border: none;
+    background-color: #f8a322;
+}
+
+.section-one {
+    margin: 50px 0px 50px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-one-element {
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section-one-text {
+    margin-top: 25px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+
+.section-one-text p {
+    color: #b3b8bc;
+}
+
+.section-one-text h4 {
+    margin-bottom: -5px;
+    font-size: 20px;
+}
+
+.section-one-line {
+    margin-top: 8px;
+    border-bottom: 1px solid #666666;
+    width: 35%;
+    align-self: center;
+}
+
+.diamond {
+    position: relative;
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.diamond img {
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.diamond:before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    border: 1px solid #333333;
+    transform: rotate(45deg);
+}
+
+
+h3 {
+    color: #f8a322;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 25px;
+    color: #666666;
+    font-weight: normal;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.article-one {
+    margin-left: 20px;
+    display: flex;
+}
+
+.article-one img {
+    width: 10%;
+    visibility: hidden;
+}
+
+.article-one-text {
+    padding: 50px;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #808080;
+}
+
+.article-one button, .contact-form-button, .price-button {
+    width: 220px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f8a322;
+    color: #ffffff;
+
+    font-family: "Lucida Bright", sans-serif;
+    font-size: 22px;
+}
+
+.line {
+    border-bottom: 1px solid #666666;
+    width: 75%;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.small-line {
+    border-bottom: 1px solid #666666;
+    width: 6%;
+    margin-top: -20px;
+}
+
+.article-two {
+    background-color: #333333;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-two img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.article-two-text {
+    padding: 50px;
+    color: #808080;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.section-two {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.prices-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.price-item {
+    background-color: #e8eaeb;
+    width: 350px;
+    margin: 50px;
+}
+
+.price {
+    background: #ffffff;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: -122px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price h4 {
+    font-weight: bolder;
+}
+
+.price-title {
+    height: 150px;
+    margin-top: -8px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    background-color: #b3b8bc;
+    color: #ffffff;
+
+}
+
+#price-basic {
+    background-color: #f8a322;
+}
+
+.price-item p {
+    padding: 30px;
+    font-size: 20px;
+    color: #333333;
+    opacity: 75%;
+}
+
+.price:before, .price:after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 10px solid;
+    border-color: #ffffff #ffffff #eeeeee #eeeeee;
+    transform: rotate(135deg);
+    opacity: 50%;
+
+    left: -10px;
+    top: -10px;
+
+}
+
+.price-button {
+    margin-bottom: 25px;
+    background-color: #b3b8bc;
+}
+
+#price-basic-button {
+    background-color: #f8a322;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 0px 30px 20px;
+}
+
+.form-field {
+    display: flex;
+    margin: 5px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 1px solid #666666;
+}
+
+input:focus {
+    border: none;
+    color: transparent;
+}
+
+::-webkit-input-placeholder {
+    font-family: "Segoe UI", sans-serif;
+    opacity: 30%;
+}
+
+.contact-form-button {
+    align-self: center;
+    margin-top: 20px;
+
+}
+
+footer {
+    height: 80px;
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-icon {
+    width: 50px;
+    margin-left: 10px;
+}
+
+#footer-text {
+    margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+@media screen and (min-width: 576px) {
+    /*styling toegepast op GROTER dan mobiel*/
+    main {
+        height: 880px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    #circle {
+        border-radius: 50%;
+        border: none;
+        width: 100px;
+        height: 100px;
+        shape-outside: circle();
+        clip-path: circle();
+
+        font-size: 80px;
+    }
+
+    li, a {
+        font-size: 25px;
+    }
+
+    .section-one-element {
+        padding: 80px;
+    }
+
+    .section-one-text h4 {
+        font-size: 30px;
+    }
+
+    .diamond {
+        position: relative;
+        display: block;
+        height: 180px;
+        width: 180px;
+    }
+
+    .diamond img {
+        width: 120px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    .article-one {
+        flex-wrap: nowrap;
+        margin-left: 80px;
+    }
+
+    .article-one img {
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        visibility: visible;
+        margin-top: 20px;
+    }
+
+    .article-one-text {
+        padding: 50px;
+        font-size: 18px;
+    }
+
+    .article-two {
+        margin-left: 80px;
+        flex-wrap: nowrap;
+    }
+
+    .article-two img {
+       width: 50%;
+       height: auto;
+       object-fit: cover;
+    }
+
+    .section-two {
+        margin: 80px;
+    }
+
+    .social-media-icon {
+        width: 50px;
+        margin-left: 50px;
+    }
+}
